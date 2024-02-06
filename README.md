@@ -1,6 +1,3 @@
-Certainly! Here's a template for a GitHub README file based on the information provided:
-
-```markdown
 # E-commerce ASP.Net Core Web API
 
 This E-commerce Web API is built using ASP.Net Core to provide a sophisticated backend for e-commerce platforms. It incorporates a three-tier architecture, ensuring scalability and easy maintenance. The API offers advanced product operations such as sorting, filtering, pagination, and search. It also integrates secure authentication and authorization mechanisms using JWT & Microsoft Identity and features Stripe for payment processing. This solution is designed to cater to the comprehensive needs of e-commerce operations.
