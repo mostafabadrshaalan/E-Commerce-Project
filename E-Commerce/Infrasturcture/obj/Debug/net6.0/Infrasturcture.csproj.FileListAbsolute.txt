@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\bin\Debug\net6.0\Infrasturcture.deps.json
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\bin\Debug\net6.0\Infrasturcture.dll
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\bin\Debug\net6.0\Infrasturcture.pdb
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\bin\Debug\net6.0\Core.dll
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\bin\Debug\net6.0\Core.pdb
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\Infrasturcture.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\Infrasturcture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\Infrasturcture.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\Infrasturcture.AssemblyInfo.cs
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\Infrasturcture.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\Infrasturcture.csproj.CopyComplete
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\Infrasturcture.dll
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\refint\Infrasturcture.dll
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\Infrasturcture.pdb
+C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\ref\Infrasturcture.dll
