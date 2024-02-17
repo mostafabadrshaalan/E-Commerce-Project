@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ygeqalN1DQwfDnfpUoAZl9Qxkr6J8sGQ5lxrqju/qHUabgVFz3yA7AM9DKrlNkbtUVfVweIztiKs8F+3/rqnOQ==",
+  "dgSpecHash": "NCI0pAJOaZSxF/pzGurC6QJZQuo1ZoiCbucuHbuR/7/hucHt9ozNGb5obZTezfF+EuAu+l5ps5EerVpLrMG2lA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\APIRevision\\API\\API.csproj",
+  "projectFilePath": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

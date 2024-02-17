@@ -1155,25 +1155,6 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Core": "1.0.0",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
-          "Microsoft.EntityFrameworkCore": "6.0.25",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.25",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.25",
-          "StackExchange.Redis": "2.7.10",
-          "System.IdentityModel.Tokens.Jwt": "7.2.0"
-        },
-        "compile": {
-          "bin/placeholder/Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Infrastructure.dll": {}
-        }
-      },
       "Infrasturcture/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3043,11 +3024,6 @@
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
     },
-    "Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../Infrasturcture/Infrastructure.csproj",
-      "msbuildProject": "../Infrasturcture/Infrastructure.csproj"
-    },
     "Infrasturcture/1.0.0": {
       "type": "project",
       "path": "../Infrasturcture/Infrasturcture.csproj",
@@ -3057,7 +3033,6 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
-      "Infrastructure >= 1.0.0",
       "Infrasturcture >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.26",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.25",
@@ -3072,11 +3047,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\APIRevision\\API\\API.csproj",
+      "projectUniqueName": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\USER\\Desktop\\APIRevision\\API\\API.csproj",
+      "projectPath": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\API\\API.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\APIRevision\\API\\obj\\",
+      "outputPath": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3093,11 +3068,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrastructure.csproj"
-            },
-            "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrasturcture.csproj": {
-              "projectPath": "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrasturcture.csproj"
+            "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Infrasturcture\\Infrasturcture.csproj": {
+              "projectPath": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Infrasturcture\\Infrasturcture.csproj"
             }
           }
         }

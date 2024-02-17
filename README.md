@@ -76,7 +76,7 @@ This project is licensed under the MIT License. See the `LICENSE.md` file for de
 
 ## Contact Information
 
-Feel free to reach out to Moustafa Shaalan via email at moustafa.shaalan@gmail.com or connect on LinkedIn at [LinkedIn Profile](https://www.linkedin.com/in/mostafabadrsh/).
+Feel free to reach out to Moustafa Shaalan via email at moustafabadr.shaalan@gmail.com or connect on LinkedIn at [LinkedIn Profile](https://www.linkedin.com/in/mostafabadrsh/).
 
 For more detailed information or specific queries, you can conduct a web search or visit the project's GitHub repository for further details.
 

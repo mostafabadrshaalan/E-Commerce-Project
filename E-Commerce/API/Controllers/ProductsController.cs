@@ -32,7 +32,7 @@ namespace API.Controllers
 
             var totalCount = await unitOfWork.Repository<Product>().CountAsync(countSpecs);
 
-            productParams.PageIndex = CalcMaxPageIndex(productParams, totalCount);
+            productParams.PageIndex = MaxPageIndex.SetMaxPageIndex(productParams, totalCount);
 
             var spec = new ProductWithBrandAndCategorySpecifications(productParams);
             var products = await unitOfWork.Repository<Product>().GetAllWithSpecifications(spec);
@@ -72,11 +72,6 @@ namespace API.Controllers
             return Ok(categories);
         }
 
-        private int CalcMaxPageIndex(ProductSpecsParams productParams, int totalCount)
-        {
-            var maxPageIndex = (int)Math.Ceiling(totalCount / (double)productParams.PageSize);
-            productParams.PageIndex = maxPageIndex < productParams.PageIndex ? maxPageIndex : productParams.PageIndex;
-            return productParams.PageIndex;
-        }
+
     }
 }

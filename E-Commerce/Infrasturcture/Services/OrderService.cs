@@ -17,23 +17,14 @@ namespace Infrasturcture.Services
             this.basketRepository = basketRepository;
             this.paymentService = paymentService;
         }
+
         public async Task<Order> CreateOrderAsync(string customerEmail, int deliveryMethodId, string basketId, ShippingAddress shippingAddress)
         {
             // Get Basket
             var basket = await basketRepository.GetBasketAsync(basketId);
 
             // Get Basket Items
-            var orderItems = new List<OrderItem>();
-            foreach (var basketItem in basket.BasketItems)
-            {
-                var product = await unitOfWork.Repository<Product>().GetByIdAsync(basketItem.Id);
-
-                var productItem = new ProductItem(product.Id, product.Name, product.PictureUrl);
-
-                var orderItem = new OrderItem(productItem, product.Price, basketItem.Quentity);
-
-                orderItems.Add(orderItem);
-            }
+            var orderItems = await GetBasketItems(basket);
 
             // Calculate Subtotal
             var subtotal = orderItems.Sum(item => item.Price * item.Qantity);
@@ -92,6 +83,22 @@ namespace Infrasturcture.Services
             var orderSpecs = new OrderWithItemsSpecifications(customerEmail);
 
             return unitOfWork.Repository<Order>().GetAllWithSpecifications(orderSpecs);
+        }
+
+        private async Task<List<OrderItem>> GetBasketItems(CustomerBasket customerBasket)
+        {
+            var orderItems = new List<OrderItem>();
+            foreach (var basketItem in customerBasket.BasketItems)
+            {
+                var product = await unitOfWork.Repository<Product>().GetByIdAsync(basketItem.Id);
+
+                var productItem = new ProductItem(product.Id, product.Name, product.PictureUrl);
+
+                var orderItem = new OrderItem(productItem, product.Price, basketItem.Quentity);
+
+                orderItems.Add(orderItem);
+            }
+            return orderItems;
         }
     }
 }

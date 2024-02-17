@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\APIRevision\\API\\API.csproj": {}
+    "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\APIRevision\\API\\API.csproj": {
+    "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\APIRevision\\API\\API.csproj",
+        "projectUniqueName": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\USER\\Desktop\\APIRevision\\API\\API.csproj",
+        "projectPath": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\API\\API.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\APIRevision\\API\\obj\\",
+        "outputPath": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrastructure.csproj"
-              },
-              "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrasturcture.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrasturcture.csproj"
+              "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Infrasturcture\\Infrasturcture.csproj": {
+                "projectPath": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Infrasturcture\\Infrasturcture.csproj"
               }
             }
           }
@@ -97,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\USER\\Desktop\\APIRevision\\Core\\Core.csproj": {
+    "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\APIRevision\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\USER\\Desktop\\APIRevision\\Core\\Core.csproj",
+        "projectPath": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\APIRevision\\Core\\obj\\",
+        "outputPath": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -170,99 +167,14 @@
         }
       }
     },
-    "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrastructure.csproj": {
+    "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Infrasturcture\\Infrasturcture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\USER\\Desktop\\APIRevision\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\APIRevision\\Core\\Core.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.25, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.25, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[6.0.25, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.25, )"
-            },
-            "StackExchange.Redis": {
-              "target": "Package",
-              "version": "[2.7.10, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[7.2.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrasturcture.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrasturcture.csproj",
+        "projectUniqueName": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Infrasturcture\\Infrasturcture.csproj",
         "projectName": "Infrasturcture",
-        "projectPath": "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\Infrasturcture.csproj",
+        "projectPath": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Infrasturcture\\Infrasturcture.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\APIRevision\\Infrasturcture\\obj\\",
+        "outputPath": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Infrasturcture\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -279,8 +191,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\USER\\Desktop\\APIRevision\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\APIRevision\\Core\\Core.csproj"
+              "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Core\\Core.csproj": {
+                "projectPath": "D:\\Me\\Programming\\C# Projects\\Projects\\Web Api\\Talabat\\E-Commerce\\Core\\Core.csproj"
               }
             }
           }

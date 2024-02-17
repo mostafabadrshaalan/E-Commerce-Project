@@ -13,3 +13,19 @@ C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\Infrasturcture
 C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\refint\Infrasturcture.dll
 C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\Infrasturcture.pdb
 C:\Users\USER\Desktop\APIRevision\Infrasturcture\obj\Debug\net6.0\ref\Infrasturcture.dll
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\bin\Debug\net6.0\Infrasturcture.deps.json
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\bin\Debug\net6.0\Infrasturcture.dll
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\bin\Debug\net6.0\Infrasturcture.pdb
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\bin\Debug\net6.0\Core.dll
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\bin\Debug\net6.0\Core.pdb
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\obj\Debug\net6.0\Infrasturcture.csproj.AssemblyReference.cache
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\obj\Debug\net6.0\Infrasturcture.GeneratedMSBuildEditorConfig.editorconfig
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\obj\Debug\net6.0\Infrasturcture.AssemblyInfoInputs.cache
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\obj\Debug\net6.0\Infrasturcture.AssemblyInfo.cs
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\obj\Debug\net6.0\Infrasturcture.csproj.CoreCompileInputs.cache
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\obj\Debug\net6.0\Infrasturcture.sourcelink.json
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\obj\Debug\net6.0\Infrasturcture.csproj.CopyComplete
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\obj\Debug\net6.0\Infrasturcture.dll
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\obj\Debug\net6.0\refint\Infrasturcture.dll
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\obj\Debug\net6.0\Infrasturcture.pdb
+D:\Me\Programming\C# Projects\Projects\Web Api\Talabat\E-Commerce\Infrasturcture\obj\Debug\net6.0\ref\Infrasturcture.dll
